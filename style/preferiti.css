@@ -1,0 +1,119 @@
+h1 {
+  color: red;
+  padding-left: 38%;
+}
+@media (max-width: 550px) {
+  h1 {
+    color: white;
+    padding-left: 30%;
+    margin-right: 30%;
+  }
+}
+h2 {
+  color: goldenrod;
+  padding-left: 45%;
+  margin-bottom: 0;
+}
+h3 {
+  padding-top: 10px;
+  margin: 0%;
+}
+#profile {
+  position: fixed;
+  background-color: lightgreen;
+  padding-right: 10px;
+}
+.l_nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
+  background-color: aquamarine;
+}
+.l_nav a {
+  padding-right: 20px;
+}
+
+main {
+  display: flex;
+}
+main #profile {
+  margin-top: 30px;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+header {
+  background-color: lightslategray;
+}
+#center {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+img {
+  height: 400px;
+  width: 400px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+@media (max-width: 550px) {
+  img {
+    height: 90%;
+    width: 90%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.interazione {
+  display: flex;
+  justify-content: space-between;
+}
+.interazione img {
+  padding: 0%;
+  height: 40px;
+  width: 40px;
+}
+.interazione div {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.c {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.c p {
+  color: rgba(0, 0, 0, 0.4);
+  padding-right: 10px;
+}
+
+.oggetto {
+  padding: 20px;
+  margin-right: 2px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+@media (max-width: 550px) {
+  .oggetto {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+  }
+}
+.hide {
+  display: none;
+}

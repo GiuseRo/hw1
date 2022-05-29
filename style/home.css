@@ -1,0 +1,137 @@
+.ben{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+h1 {
+  color: red;
+  
+}
+h2 {
+  color: goldenrod;
+  
+  margin-bottom: 10px;
+}
+h3 {
+  padding-top: 10px;
+  margin: 0%;
+}
+#profile {
+  position: fixed;
+  background-color: lightgreen;
+  padding-right: 10px;
+}
+.l_nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
+  background-color: aquamarine;
+}
+.l_nav a {
+  padding-right: 20px;
+}
+.s_nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightcyan;
+}
+.s_nav a {
+  padding-left: 10px;
+  padding-right: 50px;
+  font-weight: bold;
+}
+main {
+  display: flex;
+}
+main #profile {
+  margin-top: 30px;
+}
+
+header {
+  background-color: lightslategray;
+}
+#center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: grey;
+}
+img {
+  height: 400px;
+  width: 400px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+@media (max-width: 550px) {
+  img {
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+.hidden {
+  display: none;
+}
+form {
+  margin-bottom: 0%;
+}
+form label {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.interazione {
+  display: flex;
+  justify-content: space-between;
+}
+.interazione img {
+  padding: 0%;
+  height: 40px;
+  width: 40px;
+}
+.interazione div {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.c {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.c p {
+  color: rgba(0, 0, 0, 0.4);
+  padding-right: 10px;
+}
+.oggetto {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+@media (max-width: 550px) {
+  .oggetto {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+  }
+}
+#invio {
+  width: 25px;
+  margin-left: 45%;
+  margin-right: 50%;
+}
+.hide {
+  display: none;
+}

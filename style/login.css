@@ -1,0 +1,45 @@
+body {
+  background-image: url(a.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 550px) {
+  body {
+    background-image: url(campo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+input {
+  margin-left: 0.5em;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+@media (max-width: 550px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 40%;
+  }
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
